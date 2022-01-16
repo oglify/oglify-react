@@ -19,7 +19,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use("ecmascript");
+  api.use(["ecmascript", "oglify:react-theme"]);
   api.use("tinytest");
   api.use("oglify-react");
   api.mainModule("oglify-react-tests.js");
