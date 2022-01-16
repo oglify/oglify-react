@@ -1,5 +1,5 @@
 Package.describe({
-  name: "react",
+  name: "oglify:react",
   version: "0.0.1",
   summary: "The react display components for OGLify Meteor",
   git: "https://github.com/oglify/oglify-react",
@@ -14,7 +14,7 @@ Npm.depends({
 
 Package.onUse(function (api) {
   api.versionsFrom("2.5.3");
-  api.use(["ecmascript", "react-theme"]);
+  api.use(["ecmascript", "oglify:react-theme"]);
   api.mainModule("oglify-react.js");
 });
 
