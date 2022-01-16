@@ -14,12 +14,12 @@ Npm.depends({
 
 Package.onUse(function (api) {
   api.versionsFrom("2.5.3");
-  api.use(["ecmascript", "oglify:react-theme"]);
+  api.use(["ecmascript", "oglify:react-theme@0.0.1"]);
   api.mainModule("oglify-react.js");
 });
 
 Package.onTest(function (api) {
-  api.use(["ecmascript", "oglify:react-theme"]);
+  api.use(["ecmascript", "oglify:react-theme@0.0.1"]);
   api.use("tinytest");
   api.use("oglify:react");
   api.mainModule("oglify-react-tests.js");
