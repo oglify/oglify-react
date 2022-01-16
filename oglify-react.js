@@ -2,4 +2,6 @@
 
 // Variables exported by this module can be imported by other packages and
 // applications. See oglify-react-tests.js for an example of importing.
-export const name = 'oglify-react';
+export const name = "oglify-react";
+
+import "meteor/oglify-react-theme";
